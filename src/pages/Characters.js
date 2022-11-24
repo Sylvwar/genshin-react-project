@@ -2,12 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Card from "../components/Card";
 import { ElementTag, WeaponTag } from "../components/Tag";
-import {
-	getCharacters,
-	filterElement,
-	filterWeaponType,
-	filterCharacters,
-} from "../context/characterSlice";
+import { getCharacters, filterCharacters } from "../context/characterSlice";
 import styles from "../styles/Characters.module.css";
 
 export default function Characters() {

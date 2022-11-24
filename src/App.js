@@ -2,7 +2,7 @@ import React from "react";
 import { store } from "./context/store";
 import { Provider } from "react-redux";
 import Characters from "./pages/Characters";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 export default function App() {
 	const router = createBrowserRouter([
