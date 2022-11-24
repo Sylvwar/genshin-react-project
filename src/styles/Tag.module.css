@@ -1,0 +1,20 @@
+.tag {
+	background: #7898f011;
+	padding: 4px 10px;
+	border-radius: 2em;
+	border: 1px solid #7898f0;
+}
+
+.tag:hover {
+	background: #7898f044;
+	cursor: pointer;
+}
+
+.selected {
+	background: #7898f055;
+}
+
+.count {
+	color: #4773eb;
+	margin-left: 8px;
+}

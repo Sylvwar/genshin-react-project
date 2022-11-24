@@ -1,3 +1,58 @@
-.bg {
-    background-color: lightgray;
+.card {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	border: solid gray;
+	border-width: thin;
+	border-radius: 10px;
+	height: fit-content;
+	position: relative;
+}
+
+.card:hover {
+	border: solid royalblue;
+	border-width: thin;
+}
+
+.box {
+	padding: 0.5em;
+}
+
+.image {
+	width: 100%;
+}
+
+.icon {
+	position: absolute;
+	width: 25%;
+	height: auto;
+	margin: 0.5em;
+	text-shadow: 8 16 #000000dd;
+}
+
+.title {
+	font-size: large;
+	font-weight: 500;
+}
+
+.textOverflow {
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.fourStar {
+	color: slateblue;
+	font-size: large;
+}
+
+.fiveStar {
+	color: orange;
+	font-size: large;
+}
+
+.tags {
+	display: flex;
+	justify-content: space-between;
 }
